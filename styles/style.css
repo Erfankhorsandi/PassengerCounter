@@ -1,0 +1,26 @@
+body {
+    background:url(../images/metro.jpg) no-repeat fixed;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    color:#ccc;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+#increment-btn {
+    font-weight:900;
+    color:#111;
+    outline:0;
+    opacity: 0.3;
+    transition: all 0.15s;
+}
+#increment-btn:hover {
+    border:1px solid #ccc;
+    background:#111;
+    color:#ccc;
+    opacity: 0.3;
+    border-radius: 2px;
+}
+#increment-btn:active {
+    transform: scale(1.1);
+}
